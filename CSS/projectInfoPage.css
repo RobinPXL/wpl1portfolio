@@ -1,0 +1,104 @@
+.bannerAndInfoContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bannerImage {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 550px;
+    border: 1px solid var(--green_color);
+}
+
+#introTextProject{
+    padding: 0 2em;
+}
+
+.projectInfoBox {
+    text-align: center;
+    margin: 4em 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectInfoBox h1 {
+    text-transform: uppercase;
+    color: var(--green_color);
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.5em;
+}
+
+.projectEndDate {
+    color: var(--disabled_grey);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#bannerProject {
+    background-image: url("/assets/test.jpeg");
+}
+
+.previewImageContainer {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 5em;
+}
+
+.previewImageBox {
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-color: var(--black_color);
+    margin: 1em 2em;
+    border: 1px solid var(--green_color);
+
+    background-attachment: fixed;
+}
+
+.leftImage {
+    background-position: left;
+}
+
+.rightImage {
+    background-position: right;
+}
+
+#extraContent1 {
+    background-image: url("/assets/projects_design_sharks_2.PNG");
+}
+
+.processSection {
+    margin-bottom: 2em;
+}
+
+.projectParagraph {
+    padding: 2em 4em;
+}
+
+.quoteMiddle {
+    display: flex;
+    justify-content: center;
+}
+
+blockquote {
+    background-color: var(--black_color);
+    display: inline-block;
+    padding: 2em;
+    border: 1px solid var(--green_color);
+}
+
+q {
+    color: var(--green_color);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2vh;
+}
+
+blockquote q:hover {
+    font-size: 3vh;
+    transition: .3s;
+}

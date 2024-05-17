@@ -1,0 +1,221 @@
+:root{
+    /* colors */
+    --green_color: #57EC85;
+    --dark_forest: #0E1311;
+    --white_color: #fff;
+    --black_color: #000;
+
+    --disabled_grey: #8A8A8A;
+
+    color: var(--white_color);
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Algemene body */
+body{
+    color: var(--white_color);
+    background-color: var(--dark_forest);
+    background-attachment: fixed;
+}
+/* Alles voor de footer */
+footer{
+    text-align: center;
+    background-color: var(--black_color);
+    padding: 2em;
+    background-attachment: fixed;
+}
+
+footer span{
+    margin-top: 1em;
+}
+
+.linkedInIcon, .instagramIcon, .tumblrIcon, .emailIcon{
+    font-size: 1.5em;
+}
+
+.linkedInIcon i, .instagramIcon i, .tumblrIcon i, .emailIcon i{
+    text-decoration: none;
+    background-color: var(--black_color);
+}
+
+footer p{
+    color: var(--green_color);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+footer p>a{
+    text-decoration: none;
+    color: var(--white_color);
+}
+
+/* Algemene klasse voor buttons */
+.buttonVariant1{
+    padding-top: 2vh;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.buttonVariant1 a{
+    padding: .5em 1.3em;
+    background-color: var(--black_color);
+    border: 1px solid var(--green_color);
+
+    text-decoration: none;
+    color: var(--white_color);
+}
+
+.buttonVariant1 a:hover{
+    color: var(--green_color);
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Subtitle, kleine titels onder de main titels */
+.subTitle{
+    color: var(--white_color);
+    font-family: 'Aldrich', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+}
+/* de juiste gradient hr */
+.subTitleHR{
+    text-align: center;
+    background-image: linear-gradient(90deg, var(--dark_forest), var(--green_color), var(--dark_forest));
+    border: 0;
+    height: 2px;
+    width: 50%;
+    opacity: 1;
+    margin-bottom: 1.5em;
+    display: inline-block;
+}
+
+/* main nav system */
+#mainNavSystem{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#mainNavSystem>img{
+    height: 80px;
+}
+
+#mainNavSystem ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#mainNavSystem li{
+    list-style: none;
+    padding: 2vh;
+}
+
+.navButtons{
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--black_color);
+    padding: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: var(--white_color);
+    border: 1px solid var(--green_color);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.navButtons:hover{
+    color: var(--green_color);
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+#currentPage{
+    border: 3px solid var(--green_color)
+}
+
+/* Subnavigatie titels (met de arrows) */
+.subNav{
+    padding-top: 2em;
+    text-align: right;
+    margin-bottom: 3em;
+    margin-right: 2em;
+}
+
+.subNavSystem{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrowLeftWhite a{
+    text-decoration: none;
+    color: var(--green_color);
+    padding-right: .7em;
+}
+.MainPageTitle{
+    color: var(--green_color);
+    font-family: 'Aldrich', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+}
+.MainPageHR{
+    background-image: linear-gradient(90deg, var(--dark_forest), var(--green_color));
+    border: 0;
+    opacity: 1;
+    margin-bottom: .2em;
+}
+
+/* Buttons without "a" element */
+.buttonVariant2{
+    padding: .5em 1.3em;
+    background-color: var(--black_color);
+    border: 1px solid var(--green_color);
+    text-decoration: none;
+
+    color: var(--white_color);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.buttonVariant2:hover{
+    color: var(--green_color);
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.buttonVariant2Disabled{
+    color: var(--disabled_grey);
+}
+
+/* Breadcrumbs for later pages */
+.breadcrumbContainer{
+    margin: 2em;
+    display: flex;
+    justify-content: end;
+
+}
+
+.myBreadcrumbs{
+    display: inline;
+    background-color: var(--black_color);
+    border: 1px solid var(--green_color);
+    padding: 1em;
+}
+
+.myBreadcrumbs a{
+    color: var(--disabled_grey);
+    text-decoration: none;
+}
+
+.myBreadcrumbs i, #currentCrumb{
+    color: var(--green_color);
+}
+
+/* Often used things */
+.centralText{
+    text-align: center;
+}
+
+.centralFlex{
+    display: flex;
+}

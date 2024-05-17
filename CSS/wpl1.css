@@ -1,0 +1,45 @@
+.imageBox{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.wplImageBox{
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    max-width: 60%;
+    margin-bottom: 2em;
+    border: 1px solid var(--green_color);
+}
+
+#fristImage{
+    background-image: url("/assets/Capture_pop.PNG");
+}
+
+#secondImage{
+    background-image: url("/assets/Capture_werkplekverkenning.PNG");
+}
+
+#thirdImage{
+    background-image: url("/assets/Capture_lemo.PNG");
+}
+
+#fourthImage{
+    background-image: url("/assets/Capture_Eindreflectie.PNG");
+}
+
+.wplTitles{
+    display: inline-block;
+    color: var(--green_color);
+    font-family: 'Aldrich', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+
+    margin-bottom: 1em;
+}

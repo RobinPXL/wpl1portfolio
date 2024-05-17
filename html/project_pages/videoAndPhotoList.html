@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aldrich&family=IBM+Plex+Mono&family=Martel+Sans:wght@200;400&display=swap"
+        rel="stylesheet">
+    <!-- Adding icons -->
+    <script src="https://kit.fontawesome.com/965c6c86b2.js" crossorigin="anonymous"></script>
+    <!-- Adding bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Adding general css for all common elements -->
+    <link rel="stylesheet" href="/CSS/generalCSS.css">
+    <!-- Page specific css -->
+    <link rel="stylesheet" href="/CSS/projectList.css">
+    <title>Robin's portfolio</title>
+</head>
+
+<body>
+    <header>
+        <section id="mainNavSystem">
+            <nav>
+                <ul>
+                    <li><a class="navButtons" href="/index.html">Home</a></li>
+                    <li><a class="navButtons" href="/html/aboutMe.html">About me</a></li>
+                    <li><a class="navButtons" id="currentPage" href="/html/mainProjects.html">Projects</a></li>
+                    <li><a class="navButtons" href="/html/wpl1.html">WPL1</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="subNav">
+            <div class="subNavSystem">
+                <h1 class="arrowLeftWhite"><a href="/html/mainProjects.html"><i class="fa-solid fa-arrow-left"></i></a>
+                </h1>
+                <div class="MainPageTitle">
+                    <h1>Video & photo</h1>
+                </div>
+            </div>
+            <hr class="MainPageHR">
+        </section>
+        <section class="breadcrumbContainer">
+            <p class="myBreadcrumbs"><a href="/index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <a
+                    href="/html/mainProjects.html">My projects</a> <i class="fa-solid fa-chevron-right"></i> <a href="#"
+                    id="currentCrumb">Video & Photo</a></p>
+        </section>
+    </header>
+    <main class="projectsBoxContainer">
+        <section class="row projectsBox rightAligned">
+            <div class="col-sm-4 projectsBoxImage" id="gekVideo"></div>
+            <div class="col-sm-6">
+                <h2>Ben Je Gek!?</h2>
+                <p class="myParagraph">I scripted, produced and edited a video campaign together with the communication
+                    department at de Aanstokerij VZW. It was a massive undertaking. Sometimes I felt like I wanted to
+                    give up, sometimes I felt like a superhero. But what I learned was to not underestimate the work
+                    that goes to this. I had an absolute blast.</p>
+                <p class="buttonVariant1"><a
+                        href="/html/project_pages/template/projectInfoPageTemplate.html" id="listeningToGek">Check it out!</a>
+                </p>
+            </div>
+        </section>
+        <section class="row projectsBox leftAligned">
+            <div class="col-sm-6">
+                <h2>Domein van Huizingen</h2>
+                <p class="myParagraph">After an amazing summer day with friends (2023), we decided to head to the Domein
+                    van Huizingen. It was a wonderful reservation parc with many creatures walking around, many cute
+                    places for picnics and lots of sunshine to be had. I had a wonderful conversation about religions,
+                    economy and our futures in tech.</p>
+                <p class="buttonVariant1"><a
+                        href="/html/project_pages/template/projectInfoPageTemplate.html" id="listeningToDomein">Check it out!</a>
+                </p>
+            </div>
+            <div class="col-sm-4 projectsBoxImage" id="huizingen"></div>
+        </section>
+        <section class="row projectsBox rightAligned">
+            <div class="col-sm-4 projectsBoxImage" id="billy"></div>
+            <div class="col-sm-6">
+                <h2>Billy, my dog</h2>
+                <p class="myParagraph">Billy is real adventurer. He likes to go on long walks and then be held in someone's arms. But jokes aside, his reddish coat suited perfectly with the warm tints of autumn.</p>
+                <p class="buttonVariant1"><a
+                        href="/html/project_pages/template/projectInfoPageTemplate.html" id="listeningToDog">Check it out!</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerIconFlex">
+            <span class="fa-stack fa-2x linkedInIcon">
+                <a href="https://www.linkedin.com/in/nurhayat-bayraktar-a9777a210/" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+
+            <span class="fa-stack fa-2x instagramIcon">
+                <a href="https://www.instagram.com/mushroom_boar/" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+
+            <span class="fa-stack fa-2x tumblrIcon">
+                <a href="https://www.tumblr.com/mushroom-boar" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-tumblr fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+
+            <span class="fa-stack fa-2x emailIcon">
+                <a href="mailto:robinbayraktar@gmail.com" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-square-envelope fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+        </div>
+        <p>All illustrations and images belong to <a href="https://linktr.ee/robinbayraktar" target="_blank">Robin
+                Bayraktar</a>, unless otherwise specified.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script type="module" src="/JS/listeningScriptVideo.js"></script>
+</body>
+
+</html>

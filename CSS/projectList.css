@@ -1,0 +1,113 @@
+.projectsBoxContainer{
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.projectsBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.rightAligned{
+    text-align: right;
+}
+
+.rightAligned .myParagraph{
+    padding-left: 5em;
+}
+
+.leftAligned{
+    text-align: left;
+}
+
+.leftAligned .myParagraph{
+    padding-right: 5em;
+}
+
+.projectsBox h2{
+    color: var(--green_color);
+    font-size: 2em;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.projectsBoxImage{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 350px;
+    border: 1px solid var(--green_color);
+    padding: 2em;
+}
+
+#sharks{
+    background-image: url("/assets/projects_design_sharks.PNG");
+    background-position: top;
+}
+
+#nectosia{
+    background-image: url("/assets/projects_design_nectosia.PNG");
+    background-position: center;
+}
+
+#cuddle{
+    background-image: url("/assets/projects_design_cuddle.PNG");
+    background-position: top;
+}
+
+#bxl2030{
+    background-image: url("/assets/projects_design_bxl.PNG");
+    background-position: top;
+}
+
+#darkSouls{
+    background-image: url("/assets/projects_development_souls.PNG");
+}
+
+#nightCity{
+    background-image: url("/assets/projects_development_night.png");
+}
+
+#lilith{
+    background-image: url("/assets/projects_development_god.png");
+}
+
+#missie2030{
+    background-image: url("/assets/projects_development_missie.PNG");
+}
+
+#album{
+    background-image: url("/assets/projects_illustration_album.png");
+    background-position: center;
+}
+
+#laFamilia{
+    background-image: url("/assets/projects_illustration_cafe.png");
+    background-position: center;
+}
+
+#hellrider{
+    background-image: url("/assets/projects_illustration_hell.png");
+    background-position: center;
+}
+
+#root{
+    background-image: url("/assets/projects_illustration_root.png");
+    background-position: center;
+}
+
+#gekVideo{
+    background-image: url("/assets/projects_video_and_photo_gek.png");
+    background-position: center;
+}
+
+#huizingen{
+    background-image: url("/assets/projects_video_and_photo_domein.jpg");
+    background-position: center;
+}
+
+#billy{
+    background-image: url("/assets/projects_video_and_photo_dog.JPG");
+    background-position: center;
+}

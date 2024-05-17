@@ -1,0 +1,60 @@
+.greetings{
+    border-radius: 20px;
+    padding-top: 3vh;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 3em;
+}
+
+
+.greetingsImage{
+    border-radius: 50%;
+    height:350px;
+    border: 1px solid var(--green_color);
+}
+
+.welcomeMessage{
+    color: var(--green_color);
+    font-size: 2em;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.welcomeTextContainer{
+    padding: 0 3em;
+}
+
+.welcomeParagraph{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.titleAndProjects{
+    margin-top: 7em;
+
+    padding: 5em;
+}
+
+.previewFlex{
+    padding: 1.3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.previewFlex img{
+    max-width: 80%;
+    height: 40%;
+    border: 1px solid var(--green_color);
+}
+
+.toBeContinued{
+    text-align: center;
+    font-size: xx-large;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--disabled_grey);
+}

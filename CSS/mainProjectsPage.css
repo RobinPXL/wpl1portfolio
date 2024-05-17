@@ -1,0 +1,44 @@
+.categoryContainerBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    padding: 5em;
+}
+
+.categoryBox{
+    padding: 1em;
+    background-color: var(--black_color);
+    border: 1px solid var(--green_color);
+
+    margin-bottom: 2em;
+}
+
+.noMoreBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categoryBox h2{
+    font-family: 'Aldrich', sans-serif;
+    text-transform: uppercase;
+}
+
+.categoryBox h2 a{
+    color: var(--green_color);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.categoryBox h2 a:hover{
+    font-size: 24px;
+    transition: .3s;
+}
+
+.workAmount{
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--green_color);
+    font-size: 2vh;
+}

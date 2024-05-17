@@ -1,0 +1,132 @@
+.aboutMeMainFlex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.upperCardFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5em;
+    flex-wrap: wrap;
+}
+
+.contactMeContainer{
+    padding-bottom: 2em;
+}
+
+.contactMeImage{
+    background-color: var(--green_color);
+    background-image: url(/assets/myPicture1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1.3em;
+    border: 1px solid var(--green_color);
+    border-bottom: 0;
+    height: 250px;
+}
+
+.contactMeInfo{
+    background-color: var(--black_color);
+    padding: 2em;
+    border: 1px solid var(--green_color);
+    border-top: 0;
+    text-align: center;
+}
+
+.contactMeInfo h2{
+    color: var(--green_color);
+    font-family: 'Aldrich', sans-serif;    
+}
+
+.contactMeInfo a{
+    text-decoration: none;
+    color: var(--white_color);
+}
+
+.contactMeInfo a:hover{
+    font-size: 18px;
+    color: var(--green_color);
+    transition: .5s;
+}
+.basicInfoBox{
+    padding: 2em;
+}
+.basicInfoBox h2{
+    font-family: 'Aldrich', sans-serif;
+    padding-bottom: 1.5em;
+    color: var(--green_color);
+}
+
+.basicInfoBox p{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.givenAttribute{
+    color: var(--green_color);
+    font-weight: bold;
+}
+
+.flagContainer{
+    margin-bottom: 1em;
+}
+
+.flagContainer p{
+    text-align: center;
+    color: var(--disabled_grey)
+}
+
+.flags{
+    height: 15vh;
+    border: 1px solid var(--green_color);
+}
+/* Used flags from toyhouse */
+.nonBinaryFlag{
+    background-image:linear-gradient(#f9c66a,#f9c66a 25%,#eee9ed 25%,#eee9ed 50%,#9360c9 50%,#9360c9 75%,#353b5b 75%);
+}
+
+.lesbianFlag{
+    background-image:linear-gradient(#d42c00,#d42c00 20%,#fd9855 20%,#fd9855 40%,#fff 40%,#fff 60%,#d161a2 60%,#d161a2 80%,#a20161 80%);
+}
+
+.transFlag{
+    background-image:linear-gradient(#5ac7ed,#5ac7ed 20%,#efa4b1 20%,#efa4b1 40%,#fff 40%,#fff 60%,#efa4b1 60%,#efa4b1 80%,#5ac7ed 80%);
+}
+
+.workStudyBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+    align-items: center;
+}
+
+.workStudy{
+    text-align: center;
+}
+
+.workStudy img{
+    width: 150px;
+    margin-bottom: 1em;
+    border: 1px solid var(--green_color);
+}
+
+.workStudy p{
+    font-size: 18px;
+}
+
+.workStudy a{
+    text-decoration: none;
+    color: var(--green_color);
+}
+
+.workStudy img:hover{
+    width: 200px;
+    transition: .5s;
+}
+
+.workStudy .time{
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--green_color);
+}

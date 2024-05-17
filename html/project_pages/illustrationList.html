@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aldrich&family=IBM+Plex+Mono&family=Martel+Sans:wght@200;400&display=swap"
+        rel="stylesheet">
+    <!-- Adding icons -->
+    <script src="https://kit.fontawesome.com/965c6c86b2.js" crossorigin="anonymous"></script>
+    <!-- Adding bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Adding general css for all common elements -->
+    <link rel="stylesheet" href="/CSS/generalCSS.css">
+    <!-- Page specific css -->
+    <link rel="stylesheet" href="/CSS/projectList.css">
+    <title>Robin's portfolio</title>
+</head>
+
+<body>
+    <header>
+        <section id="mainNavSystem">
+            <nav>
+                <ul>
+                    <li><a class="navButtons" href="/index.html">Home</a></li>
+                    <li><a class="navButtons" href="/html/aboutMe.html">About me</a></li>
+                    <li><a class="navButtons" id="currentPage" href="/html/mainProjects.html">Projects</a></li>
+                    <li><a class="navButtons" href="/html/wpl1.html">WPL1</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="subNav">
+            <div class="subNavSystem">
+                <h1 class="arrowLeftWhite"><a href="/html/mainProjects.html"><i class="fa-solid fa-arrow-left"></i></a>
+                </h1>
+                <div class="MainPageTitle">
+                    <h1>Illustration</h1>
+                </div>
+            </div>
+            <hr class="MainPageHR">
+        </section>
+        <section class="breadcrumbContainer">
+            <p class="myBreadcrumbs"><a href="/index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <a
+                    href="/html/mainProjects.html">My projects</a> <i class="fa-solid fa-chevron-right"></i> <a href="#"
+                    id="currentCrumb">Illustration</a></p>
+        </section>
+    </header>
+    <main class="projectsBoxContainer">
+        <section class="row projectsBox rightAligned">
+            <div class="col-sm-4 projectsBoxImage" id="album"></div>
+            <div class="col-sm-6">
+                <h2>Spotify album covers</h2>
+                <p class="myParagraph">Ever since I got my spotify account 2 years ago, I've been creating playlists
+                    left and right. Sometimes it's difficult to find a specific playlist if they overlapping artists.
+                    That's why I made my own 'album' covers to make it easier to find.</p>
+                <p class="buttonVariant1"><a href="/html/project_pages/template/projectInfoPageTemplate.html" id="listeningToAlbum">Check it out!</a></p>
+            </div>
+        </section>
+        <section class="row projectsBox leftAligned">
+            <div class="col-sm-6">
+                <h2>La familia café</h2>
+                <p class="myParagraph">I had to get to a dentist appointment once and I was a bit too early. So I
+                    decided to grab a coffee in a nearby alley. That's how I found this vvery cosy café near the Avenue
+                    de Volxem, Forest.</p>
+                <p class="buttonVariant1"><a href="/html/project_pages/template/projectInfoPageTemplate.html" id="listeningToCafe">Check it out!</a></p>
+            </div>
+            <div class="col-sm-4 projectsBoxImage" id="laFamilia"></div>
+        </section>
+        <section class="row projectsBox rightAligned">
+            <div class="col-sm-4 projectsBoxImage" id="hellrider"></div>
+            <div class="col-sm-6">
+                <h2>Hellrider, the unfinished vengeance</h2>
+                <p class="myParagraph">This was a project that unfortunatly did not come to be. My friends and I lost
+                    interest after a few weeks. Simply because we didn't seem to work well together and we had a lot of
+                    communication issues. This was supposed to be a mobile game, but I saved all the concept art I made
+                    for it.</p>
+                <p class="buttonVariant1"><a href="/html/project_pages/template/projectInfoPageTemplate.html" id="listeningToHell">Check it out!</a></p>
+            </div>
+        </section>
+        <section class="row projectsBox leftAligned">
+            <div class="col-sm-6">
+                <h2>Root: the game of might and right</h2>
+                <p class="myParagraph">This boardgame captured my heart and soul! I spent my entire summer of 2022
+                    entirely engrossed in it. Of course, I wanted to draw all the creatures. This inspired me and a lot
+                    of people on Reddit for me to continue to illustrate these woodland creatures in multiple ways.
+                </p>
+                <p class="buttonVariant1"><a href="/html/project_pages/template/projectInfoPageTemplate.html" id="listeningToRoot">Check it out!</a></p>
+            </div>
+            <div class="col-sm-4 projectsBoxImage" id="root"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerIconFlex">
+            <span class="fa-stack fa-2x linkedInIcon">
+                <a href="https://www.linkedin.com/in/nurhayat-bayraktar-a9777a210/" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+
+            <span class="fa-stack fa-2x instagramIcon">
+                <a href="https://www.instagram.com/mushroom_boar/" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+
+            <span class="fa-stack fa-2x tumblrIcon">
+                <a href="https://www.tumblr.com/mushroom-boar" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-tumblr fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+
+            <span class="fa-stack fa-2x emailIcon">
+                <a href="mailto:robinbayraktar@gmail.com" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-square-envelope fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+        </div>
+        <p>All illustrations and images belong to <a href="https://linktr.ee/robinbayraktar" target="_blank">Robin
+                Bayraktar</a>, unless otherwise specified.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script type="module" src="/JS/listeningScriptIllust.js"></script>
+</body>
+
+</html>

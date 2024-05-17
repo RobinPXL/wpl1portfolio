@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Adding fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aldrich&family=IBM+Plex+Mono&family=Martel+Sans:wght@200;400&display=swap"
+        rel="stylesheet">
+    <!-- Adding icons -->
+    <script src="https://kit.fontawesome.com/965c6c86b2.js" crossorigin="anonymous"></script>
+    <!-- Adding bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Adding general css for all common elements -->
+    <link rel="stylesheet" href="/CSS/generalCSS.css">
+    <!-- Page specific css -->
+    <link rel="stylesheet" href="/CSS/projectInfoPage.css">
+    <title>Robin's portfolio</title>
+</head>
+
+<body>
+    <header>
+        <section id="mainNavSystem">
+            <nav>
+                <ul>
+                    <li><a class="navButtons" href="/index.html">Home</a></li>
+                    <li><a class="navButtons" href="/html/aboutMe.html">About me</a></li>
+                    <li><a class="navButtons" id="currentPage" href="/html/mainProjects.html">Projects</a></li>
+                    <li><a class="navButtons" href="/html/wpl1.html">WPL1</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="subNav">
+            <div class="subNavSystem">
+                <h1 class="arrowLeftWhite"><a id="projectBackArrowNav" href="/html/project_pages/designList.html"><i
+                            class="fa-solid fa-arrow-left"></i></a></h1>
+                <div class="MainPageTitle">
+                    <h1 id="nameProjectTitle">Naam project</h1>
+                </div>
+            </div>
+            <hr class="MainPageHR">
+        </section>
+
+        <section class="breadcrumbContainer">
+            <p class="myBreadcrumbs"><a href="/index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <a
+                    href="/html/mainProjects.html">My projects</a> <i class="fa-solid fa-chevron-right"></i> <a href="#"
+                    id="previousCrumb">Category</a> <i class="fa-solid fa-chevron-right"></i> <a href="#"
+                    id="currentCrumb">Name Project</a></p>
+        </section>
+    </header>
+    <main>
+        <section class="row bannerAndInfoContainer">
+            <div id="bannerProject" class="col-sm-11 bannerImage"></div>
+            <div class="col-sm-6 projectInfoBox">
+                <div>
+                    <h1 id="nameProject">Placeholder name</h1>
+                    <p class="projectEndDate">End of project: <span id="endDateProject">placeholder date</span></p>
+                </div>
+                <p id="introTextProject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, obcaecati
+                    corporis!
+                    Odio aliquam voluptas quibusdam atque quos iure exercitationem deleniti est minima ab vel
+                    consequatur
+                    dolore magnam, qui obcaecati fugit.</p>
+                <a id="downloadProject" href="#" target="_blank" class="buttonVariant2">Download the document here</a>
+            </div>
+
+        </section>
+
+        <section class="subTitle">
+            <h2>More media</h2>
+            <hr class="subTitleHR">
+        </section>
+        <section class="row previewImageContainer">
+            <div class="col-sm-3 previewImageBox leftImage" id="extraContent1"></div>
+            <div class="col-sm-3 previewImageBox" id="extraContent2"></div>
+            <div class="col-sm-3 previewImageBox rightImage" id="extraContent3"></div>
+        </section>
+
+        <section class="subTitle">
+            <h2>Process</h2>
+            <hr class="subTitleHR">
+        </section>
+        <section class="processSection">
+            <p id="projectParagraph1" class="projectParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Vel maiores perferendis
+                odit cumque illum atque nobis debitis aliquam expedita, dignissimos ad. Accusamus eveniet voluptatum
+                nemo reiciendis facilis placeat hic at. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis minima perspiciatis ab, a similique deleniti pariatur molestias deserunt laudantium porro iure
+                reprehenderit at itaque in illo! Magni facere necessitatibus est? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Eos ipsam voluptate doloribus nobis numquam placeat sint atque ab enim dicta quam rem,
+                reprehenderit quidem incidunt consectetur tenetur, assumenda repudiandae voluptas.</p>
+            <p id="projectParagraph2" class="projectParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Vel maiores perferendis
+                odit cumque illum atque nobis debitis aliquam expedita, dignissimos ad. Accusamus eveniet voluptatum
+                nemo reiciendis facilis placeat hic at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+                itaque necessitatibus est alias nemo nam voluptatibus debitis sapiente praesentium eveniet aliquid,
+                nulla officia recusandae. Distinctio nihil officiis esse vitae minus! Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Incidunt vel quia veritatis at quas soluta sequi doloribus, odio similique
+                aperiam. Possimus fugiat laboriosam veritatis unde exercitationem blanditiis dolores numquam optio!</p>
+            <div class="quoteMiddle">
+                <blockquote>
+                    <q id="projectQuote">I loved the story and rogue-like elements!</q>
+                </blockquote>
+            </div>
+            <p id="projectParagraph3" class="projectParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Vel maiores perferendis
+                odit cumque illum atque nobis debitis aliquam expedita, dignissimos ad. Accusamus eveniet voluptatum
+                nemo reiciendis facilis placeat hic at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                eos eveniet quos, architecto id cumque corrupti quis, unde aliquid inventore rem fugit autem
+                voluptatibus odio adipisci, facilis animi quidem assumenda. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Architecto dolor explicabo placeat aliquam rem deserunt at neque numquam rerum enim
+                eius, earum ad impedit assumenda magni, maxime omnis optio? Harum.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footerIconFlex">
+            <span class="fa-stack fa-2x linkedInIcon">
+                <a href="https://www.linkedin.com/in/nurhayat-bayraktar-a9777a210/" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+
+            <span class="fa-stack fa-2x instagramIcon">
+                <a href="https://www.instagram.com/mushroom_boar/" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+
+            <span class="fa-stack fa-2x tumblrIcon">
+                <a href="https://www.tumblr.com/mushroom-boar" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-tumblr fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+
+            <span class="fa-stack fa-2x emailIcon">
+                <a href="mailto:robinbayraktar@gmail.com" target="_blank">
+                    <i class="fa-solid fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-square-envelope fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+        </div>
+        <p>All illustrations and images belong to <a href="https://linktr.ee/robinbayraktar" target="_blank">Robin
+                Bayraktar</a>, unless otherwise specified.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="/JS/showingProjectsInfo.js" type="module" defer></script>
+</body>
+
+</html>
